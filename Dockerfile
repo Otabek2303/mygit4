@@ -1,8 +1,8 @@
-# Rasm: nginx web server
 FROM nginx:alpine
-
-# Web fayllarni Nginx'ning default katalogiga nusxalash
-COPY . /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html/index.html
 
 # 80-portni ochamiz
 EXPOSE 80
+
+
+
